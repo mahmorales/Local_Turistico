@@ -1,5 +1,13 @@
-h1 {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
   font-family: "Open Sans", sans-serif;
+}
+h1 {
   color: #E1624F;
   font-size: 16;
   font-style: bold;
@@ -7,7 +15,32 @@ h1 {
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
   font-size: 36;
   font-style: bold;
+}
+
+h3 {
+  font-size: ;
+}
+
+figure {
+  text-align: center;
+  margin: 40px 0;
+}
+
+figcaption {
+  font-size: 16;
+  font-style: italic;
+  color: #333;
+  margin-top: 8px;
+}
+
+
+footer {
+  color: #333;
+  margin: 40px;
+  text-align: center;
+}
+footer img {
+  vertical-align: middle;
 }

@@ -1,46 +1,105 @@
 
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 :root {
   font-family: "Open Sans", sans-serif;
+  background-color: #F5F4F0;
 }
+#page {
+  width: 1120px;       /* largura fixa */
+  margin: 0 auto;      /* centraliza na tela */
+  padding: 0 20px;     /* espaço interno opcional */
+}
+
 h1 {
   color: #E1624F;
-  font-size: 16;
-  font-style: bold;
+  font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 36;
-  font-style: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-size: ;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+ h2, h3, h4 {
+   font-weight: bold;
+   color: #1B1B1B;
+}
+
+p {
+   font-size: 16px;
+   color: #333;
 }
 
 figure {
   text-align: center;
-  margin: 40px 0;
+  display: block;
+  margin: 0 auto;
+  width: 1120px;
+  height: 660px; /* altura fixa */
+  object-fit: cover; 
 }
 
 figcaption {
-  font-size: 16;
+  font-size: 16px;
   font-style: italic;
   color: #333;
-  margin-top: 8px;
+  margin-top: 24px;
+  text-align: center;
+}
+img {
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+  width: 1120px;
+  height: 350px;
+  object-fit: cover;
+
+}
+.final {
+  width: 1120px;        /* ocupa toda a largura do container */
+  margin: 0 auto;       /* centraliza horizontalmente */
+  text-align: center;   /* centraliza o texto */
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
 }
 
-
+.footer-line {
+  width: 1120px;
+  height: 0;
+  border-top: 1px solid #D9D9D9;
+  margin: 40px auto; /* centraliza */
+  margin-top: 40px;
+  margin-bottom: 40px,
+}
 footer {
   color: #333;
   margin: 40px;
   text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  /* border-top: 1px solid #D9D9D9; linha separadora */
+  /* padding-top: 20px;             espaço entre linha e texto */
 }
-footer img {
-  vertical-align: middle;
+
+footer .heart {
+  width: 16px;
+  height: 16px;
+  display: inline-block;     /* garante que fique na linha */
+  vertical-align: middle;    /* alinha com o texto */
+  margin: 0 4px;             /* espaço dos lados */
 }
